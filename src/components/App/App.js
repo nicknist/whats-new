@@ -18,20 +18,25 @@ class App extends Component {
       health,
       entertainment,
       science,
-      technology,
-      filterArticles: []
+      technology
     }
   }
 
   changePage = (event) => {
-    this.setState({ currentPage: [event.target.id] })
+    this.setState({
+      currentPage: [event.target.id],
+      local,
+      health,
+      entertainment,
+      science,
+      technology,
+     })
   }
 
   searchArticle = () => {
     const input = document.getElementById('search').value;
     const searchedArticles = this.state[this.state.currentPage].filter(data =>  data.description.toUpperCase().includes(input.toUpperCase()));
-    console.log(searchedArticles);
-    this.setState({ filterArticles: searchedArticles })
+    this.setState({ [this.state.currentPage]: searchedArticles });
   }
 
   render () {
