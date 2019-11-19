@@ -1,0 +1,31 @@
+body {
+  color: white;
+}
+
+.yellow {
+  color: yellow;
+}
+
+label {
+  font-size: 1.5em;
+  padding: 5%;
+  display: flex;
+}
+
+.item:hover {
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+}
+
+.item:active {
+  border: 2px solid blue;
+}
+
+img {
+  height: 25px;
+  width: 25px;
+  display: inline;
+  background-color: white;
+  border-radius: 50%;
+}

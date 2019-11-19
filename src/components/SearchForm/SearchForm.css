@@ -1,0 +1,25 @@
+input, button {
+  background: #141527;
+  color: white;
+  height: 50px;
+}
+
+input {
+  width: 60vw;
+}
+
+button {
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 20%;
+  width: 6vw;
+  align-self: center;
+}
+
+h1 {
+  padding: 1%;
+}
+
+form {
+  display: flex;
+}

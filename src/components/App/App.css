@@ -4,10 +4,40 @@
   padding: 0;
 }
 
+#blockColorblindContent {
+  display: none;
+}
+
 .app {
-  display: flex;
+  display: grid;
+  grid-template-areas:
+            "head head"
+            "nav main";
+  grid-template-rows: 1fr 9fr;
+  grid-template-columns: 1fr 4fr;
   background: #141527;
   height: 100vh;
   text-align: center;
   width: 100%;
 }
+
+.menu {
+  grid-area: nav;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+header {
+  grid-area: head;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-container {
+  grid-area: main;
+}
+
+/* some sort of grid set up */
