@@ -1,6 +1,7 @@
 .headline {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
   margin: 7% 0%;
 }
 
@@ -12,7 +13,7 @@ main {
 
 article {
   width: 48%;
-  background-color: #F9F68A;
+  background-color: white;
   margin: 1%;
   padding: 3%;
 }

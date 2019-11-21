@@ -1,6 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App should display the application boilerplate page 1`] = `
+exports[`App should display an error message when error happens 1`] = `
+<p>
+  There was an error loading the Page
+</p>
+`;
+
+exports[`App should display main page when not loading and no error 1`] = `
+<div
+  className="app"
+>
+  <Menu
+    changePage={[Function]}
+  />
+  <SearchForm
+    searchArticle={[Function]}
+  />
+  <NewsContainer
+    data={Array []}
+  />
+</div>
+`;
+
+exports[`App should display the loading screen page 1`] = `
 <div
   className="loading-ring app-load"
 />
