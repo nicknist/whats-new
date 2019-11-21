@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsContainer should create to area for all the articles to be in 1`] = `
+<main
+  className="news-container"
+>
+  <NewsArticle
+    articleInfo={
+      Object {
+        "description": "Fake fake stuff.",
+        "headline": "Mock Headline 1",
+        "id": 1,
+        "img": "fakeurl.com",
+        "url": "anotherfakeurl.net",
+      }
+    }
+    key="anotherfakeurl.net"
+  />
+  <NewsArticle
+    articleInfo={
+      Object {
+        "description": "More fake stuff",
+        "headline": "Mock Headline 2",
+        "id": 2,
+        "img": "fakeurl2.com",
+        "url": "anotherfakeurl2.net",
+      }
+    }
+    key="anotherfakeurl2.net"
+  />
+</main>
+`;

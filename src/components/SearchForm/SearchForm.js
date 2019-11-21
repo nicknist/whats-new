@@ -8,7 +8,7 @@ const SearchForm = ({ searchArticle }) =>  {
     <header>
       <h1>Whats <span className="yellow">New?</span></h1>
       <form className="search-form">
-        <label>
+        <label className="search-bar">
           <input id="search" type="text" placeholder="Search for news article here"/>
         </label>
         <button onClick={searchArticle} type="button">Search</button>

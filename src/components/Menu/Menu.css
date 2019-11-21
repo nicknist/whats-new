@@ -1,5 +1,5 @@
 body {
-  color: white;
+  color: black;
 }
 
 .yellow {
@@ -13,7 +13,7 @@ label {
 }
 
 .item:hover {
-  background-color: yellow;
+  background-color: #55A5FF;
   color: black;
   cursor: pointer;
 }
@@ -22,10 +22,11 @@ label {
   border: 2px solid blue;
 }
 
-img {
+.icon {
   height: 25px;
   width: 25px;
   display: inline;
+  margin-right: 10px;
   background-color: white;
   border-radius: 50%;
 }

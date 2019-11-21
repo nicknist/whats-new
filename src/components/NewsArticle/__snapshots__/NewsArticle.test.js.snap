@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsArticle should create the UI for a news article 1`] = `
+<article>
+  <h1>
+    Mock Headline 1
+  </h1>
+  <img
+    alt=""
+    className="headline"
+    src="fakeurl.com"
+  />
+  <p>
+    Fake fake stuff.
+  </p>
+  <a
+    href="anotherfakeurl.net"
+  >
+     Link to Article
+  </a>
+</article>
+`;

@@ -12,23 +12,23 @@ const Menu = ({ changePage }) => {
   return (
     <nav className="menu">
       <label onClick={changePage} id="local" className="item">
-        <img src={location} alt="Location Icon"/>
+        <img className="icon" src={location} alt="Location Icon"/>
         Local News
       </label>
       <label onClick={changePage} id="technology" className="item">
-        <img src={brain} alt="Technology Icon"/>
+        <img src={brain} className="icon" alt="Technology Icon"/>
         Technology
       </label>
       <label onClick={changePage} id="entertainment" className="item">
-        <img src={movie} alt="Entertainment Icon"/>
+        <img src={movie} className="icon" alt="Entertainment Icon"/>
         Entertainment
       </label>
       <label onClick={changePage} id="science" className="item">
-        <img src={rocket} alt="Science Icon"/>
+        <img src={rocket} className="icon" alt="Science Icon"/>
         Science
       </label>
       <label onClick={changePage} id="health" className="item">
-        <img src={heart} alt="Health Icon"/>
+        <img src={heart} className="icon" alt="Health Icon"/>
         Health
       </label>
     </nav>

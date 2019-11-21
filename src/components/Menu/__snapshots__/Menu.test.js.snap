@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu should show the menu component as a nav bar 1`] = `
+<nav
+  className="menu"
+>
+  <label
+    className="item"
+    id="local"
+    onClick={[MockFunction]}
+  >
+    <img
+      alt="Location Icon"
+      className="icon"
+      src="location.svg"
+    />
+    Local News
+  </label>
+  <label
+    className="item"
+    id="technology"
+    onClick={[MockFunction]}
+  >
+    <img
+      alt="Technology Icon"
+      className="icon"
+      src="brain.png"
+    />
+    Technology
+  </label>
+  <label
+    className="item"
+    id="entertainment"
+    onClick={[MockFunction]}
+  >
+    <img
+      alt="Entertainment Icon"
+      className="icon"
+      src="movie.png"
+    />
+    Entertainment
+  </label>
+  <label
+    className="item"
+    id="science"
+    onClick={[MockFunction]}
+  >
+    <img
+      alt="Science Icon"
+      className="icon"
+      src="rocket.png"
+    />
+    Science
+  </label>
+  <label
+    className="item"
+    id="health"
+    onClick={[MockFunction]}
+  >
+    <img
+      alt="Health Icon"
+      className="icon"
+      src="heart.png"
+    />
+    Health
+  </label>
+</nav>
+`;

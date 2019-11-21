@@ -1,6 +1,5 @@
 input, button {
-  background: #141527;
-  color: white;
+  background: #BFEB55;
   height: 50px;
 }
 
@@ -9,17 +8,21 @@ input {
 }
 
 button {
-  background-color: rebeccapurple;
-  color: white;
-  border-radius: 20%;
+  color: black;
+  font-weight: bold;
+  border-radius: 10%;
   width: 6vw;
   align-self: center;
 }
 
-h1 {
-  padding: 1%;
+#search {
+  padding: 0%;
 }
 
 form {
   display: flex;
+}
+
+.search-bar {
+  margin-right: 0%;
 }

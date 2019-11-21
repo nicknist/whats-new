@@ -7,7 +7,7 @@ const NewsArticle = ({ articleInfo }) => {
   return (
     <article>
       <h1>{articleInfo.headline}</h1>
-      <img className="headline" src={articleInfo.img} alt="Photo based on Headline" />
+      <img className="headline" src={articleInfo.img} alt='' />
       <p>{articleInfo.description}</p>
       <a href={articleInfo.url}> Link to Article</a>
     </article>
