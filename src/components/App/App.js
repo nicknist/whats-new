@@ -8,6 +8,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
+      search: '',
       currentPage: 'local',
       fullData: {
         local: [],
@@ -30,12 +31,11 @@ class App extends Component {
 
   changePage = (event) => {
     this.setState({
-      currentPage: [event.target.id]
+      currentPage: event.target.id
      })
   }
 
-  searchArticle = () => {
-    const input = document.getElementById('search').value;
+  searchArticle = (input) => {
     const { fullData } = this.state;
     const searchedArticles = this.state.fullData[this.state.currentPage].filter(data =>  data.description.toUpperCase().includes(input.toUpperCase()));
 
@@ -46,6 +46,10 @@ class App extends Component {
         filtered: searchedArticles
       }
     });
+  }
+
+  changeInput = (event) => {
+    this.setState({ search: event.target.value });
   }
 
   render () {
@@ -60,7 +64,7 @@ class App extends Component {
     return (
       <div className="app">
         <Menu changePage={this.changePage} />
-        <SearchForm searchArticle={this.searchArticle}/>
+        <SearchForm searchArticle={this.searchArticle} changeInput={this.changeInput} currentInput={this.state.search}/>
         <NewsContainer data={this.state.fullData[this.state.currentPage]} />
       </div>
     );

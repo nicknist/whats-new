@@ -23,7 +23,7 @@ exports[`SearchForm should make the search bar with a header tag 1`] = `
       />
     </label>
     <button
-      onClick={[MockFunction]}
+      onClick={[Function]}
       type="button"
     >
       Search

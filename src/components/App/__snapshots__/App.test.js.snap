@@ -14,6 +14,8 @@ exports[`App should display main page when not loading and no error 1`] = `
     changePage={[Function]}
   />
   <SearchForm
+    changeInput={[Function]}
+    currentInput=""
     searchArticle={[Function]}
   />
   <NewsContainer
