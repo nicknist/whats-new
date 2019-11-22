@@ -7,10 +7,10 @@ What's new is all about staying updated on the latest news. There's a few catego
 This is the first project that I've used React and am learning class-based components for now. I hope to use hooks in the future and learn redux as well.
 
 ## Working Demo:
-### Front Page:
+### Menu Navigation:
 ![screenshots/menu-nav.gif](screenshots/menu-nav.gif)
 
-### Card Flips:
+### Search Button:
 ![screenshots/search-button.gif](screenshots/search-button.gif)
 
 ### Collaborators:
