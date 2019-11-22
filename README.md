@@ -11,7 +11,7 @@ This is the first project that I've used React and am learning class-based compo
 ![screenshots/menu-nav.gif](screenshots/menu-nav.gif)
 
 ### Card Flips:
-![screenshots/search-nav.gif](screenshots/search-nav.gif)
+![screenshots/search-button.gif](screenshots/search-nav.gif)
 
 ### Collaborators:
 
