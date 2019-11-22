@@ -1,5 +1,6 @@
 import React from 'react';
 import './SearchForm.css';
+import PropTypes from 'prop-types'
 
 // SEARCHFORM COMPONENT CODE GOES HERE
 
@@ -15,6 +16,12 @@ const SearchForm = ({ searchArticle, changeInput, currentInput }) =>  {
       </form>
     </header>
   )
+}
+
+SearchForm.propTypes = {
+  searchArticle: PropTypes.func,
+  changeInput: PropTypes.func,
+  currentInput: PropTypes.string
 }
 
 export default SearchForm;

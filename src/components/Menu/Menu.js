@@ -5,6 +5,7 @@ import brain from '../../icons/brain.png'
 import movie from '../../icons/movie.png'
 import rocket from '../../icons/rocket.png'
 import heart from '../../icons/heart.png'
+import PropTypes from 'prop-types'
 
 // MENU COMPONENT CODE GOES HERE
 
@@ -33,6 +34,10 @@ const Menu = ({ changePage }) => {
       </label>
     </nav>
   )
+}
+
+Menu.propTypes = {
+  changePage: PropTypes.func
 }
 
 export default Menu;
